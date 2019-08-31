@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple JavaScript Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<script>
+    const calculate = (operation) => {
+        form.disp.value = form.disp.value+operation;
+    }
+</script>
+<body>
+    
+        <div>
+            <form name="calculatorBody">
+                <!-- <div class="head">
+                    <h4>A simple calculator</h4>
+                </div> -->
+                <div class="topDisplay">
+                    <input type="text" placeholder="0" name="disp">
+                </div>
+                <div class="calCont">
+                    <div class="cont1">
+                        <input type="button" value="c" name="clear" onclick="calculatorBody.disp.value = ''"  >
+                        <input type="button" value="/" name="div" onclick="calculatorBody.disp.value += '/'" >
+                        <input type="button" value="*" name="mult" onclick="calculatorBody.disp.value += '*'">
+                        <input type="button" value="<-" name="back" onclick="calculatorBody.disp.value.pop()">
+                    </div>
+                    <div class="cont2">
+                        <input type="button" value=" 7 " name="ts1" onclick="calculatorBody.disp.value += '7'"/>
+                        <input type="button" value=" 8 " name="ts2" onclick="calculatorBody.disp.value += '8'"/>
+                        <input type="button" value="9" name="ts3" onclick="calculatorBody.disp.value += '9'">
+                        <input type="button" value="+" name="add" onclick="calculatorBody.disp.value += '+'" >
+                    </div>
+                    <div class="cont3">
+                        <input type="button" value="4" name="md1" onclick="calculatorBody.disp.value += '4'">
+                        <input type="button" value="5" name="md2" onclick="calculatorBody.disp.value += '5'">
+                        <input type="button" value="6" name="md3" onclick="calculatorBody.disp.value += '6'">
+                        <input type="button" value="-" name="md4" onclick="calculatorBody.disp.value += '-'">
+                    </div>
+                    <div class="cont4">
+                            <input type="button" value="1" name="mds1" onclick="calculatorBody.disp.value += '1'">
+                            <input type="button" value="2" name="mds2" onclick="calculatorBody.disp.value += '2'">
+                            <input type="button" value="3" name="mds3" onclick="calculatorBody.disp.value += '3'">
+                            <input type="button" value="=" name="mds4" onclick="calculatorBody.disp.value = eval(calculatorBody.disp.value)">
+                    </div>
+                    <div class="cont5">
+                            <input type="button" value="0" name="btm1" onclick="calculatorBody.disp.value += '0'">
+                            <input type="button" value="." name="btm2" onclick="calculatorBody.disp.value += '.'">
+                    </div>
+
+                </div>
+            </form>
+            <!-- Proudly made by Abdulmaleek Wasiu. -->
+        </div>
+    
+</body>
+<script src="calculator.js"></script>
+</html>

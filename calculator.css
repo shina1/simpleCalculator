@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding:0;
+    background:#FFFFE0;
+}
+form{
+    /* position: absolute; */
+    /* background-color:red; */
+    width: 450px;
+    margin-top:50px;
+    margin-left:400px;
+    height:auto;
+    border: solid black 3px;
+    border-radius:20px;
+}
+.head{
+    background-color:skyblue;
+    height:45px;
+    width: 450px;
+   margin-bottom:10px;
+}
+.head h4{
+    color:white;
+    font-size: 30px;
+    margin:40px;
+    padding-left:80px;
+    padding-top:7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topDisplay{
+    margin-left: 30px;
+    margin-top:10px;
+}
+.topDisplay input{
+    background-color: antiquewhite;
+    height: 75px;
+    width: 400px;
+    font-size:35px;
+    border:none;
+   
+}
+
+.topDisplay input::placeholder{
+    color:slategrey;
+}
+.calCont input{
+    /* display:block; */
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    font-size:20px;
+    color:black; 
+}
+.cont1{
+    /* display:flex; */
+    /* justify-content: space-between; */
+    margin: 5px;
+    /* padding: 5px; */
+}
+.cont2{
+    margin: 5px;    
+}
+.cont3{
+    margin: 5px;    
+}
+.cont4{
+    margin: 5px;    
+}
+.cont5{
+    margin: 5px;    
+}
+.count4 input:nth-child(4){
+    height:150px !important;
+}
